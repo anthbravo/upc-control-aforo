@@ -1,0 +1,34 @@
+<main class="login">
+  <img
+    class="login__logo"
+    src="../../../assets/images/upc.png"
+    alt="Logo de la UPC"
+  />
+
+  <h1 class="login__title">MI UPC</h1>
+  <p class="login__version">Versión: 2.4.1</p>
+
+  <form class="login__form" [formGroup]="formGroupLogin">
+    <mat-form-field>
+      <mat-label>USUARIO</mat-label>
+      <input matInput formControlName="user" value="" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>CONTRASEÑA</mat-label>
+      <input matInput formControlName="password" value="" type="password" />
+    </mat-form-field>
+
+    <div class="login__conditions-container">
+      <mat-checkbox></mat-checkbox>
+      <p class="login__conditions">
+        El TIU VIRTUAL es personal e intransferible. El mal uso de este
+        documento está tipificado como FALTA GRAVE y conduce a la aplicación de
+        sanciones para los infractores. Encuentra más
+        <a href="#" class="login__contitions-link">aquí</a>
+      </p>
+    </div>
+
+    <button class="login__enter-button" (click)="eventEnter()">INGRESAR</button>
+  </form>
+</main>

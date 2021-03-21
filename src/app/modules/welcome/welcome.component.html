@@ -1,0 +1,29 @@
+<main class="welcome">
+  <img class="welcome__logo" src="../../../assets/images/upc.png" alt="" />
+  <section class="welcome__personal-information">
+    <img
+      class="welcome__avatar"
+      src="../../../assets/images/avatar.png"
+      alt="Avatar"
+    />
+    <p class="welcome__name">Anthony Joaquin Bravo Berrio</p>
+  </section>
+  <section class="welcome__courses">
+    <p class="welcome__course-title">Mis Cursos Hoy</p>
+    <p class="welcome__course-detail">Hora innovar</p>
+  </section>
+  <section class="welcome__menu-options">
+    <div
+      class="welcome__option-container"
+      *ngFor="let option of menu"
+      routerLink="{{ option.url }}"
+    >
+      <img
+        class="welcome__option-icon"
+        src="../../../assets/icons/{{ option.iconName }}"
+        alt="{{ option.description }}"
+      />
+      <p class="welcome__option-description">{{ option.description }}</p>
+    </div>
+  </section>
+</main>
