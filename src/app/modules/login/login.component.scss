@@ -5,25 +5,30 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #919191;
+  background-color: black;
+  background-image: url("../../../assets/images/login-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   overflow-y: auto;
 }
 
 .login__logo {
   height: 65px;
   margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .login__title {
   font-size: 1rem;
   font-weight: bold;
   line-height: 1rem;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.5rem;
   color: #fff;
 }
 
 .login__version {
+  margin-bottom: 2rem;
   font-size: 0.5rem;
   line-height: 0.5rem;
   color: #fff;
@@ -68,4 +73,34 @@
 
 .login__enter-button:focus {
   outline: none;
+}
+
+:host ::ng-deep .mat-input-element {
+  color: white;
+}
+
+:host ::ng-deep .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+  color: #f44336;
+}
+
+:host ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-label {
+  color: white;
+}
+
+:host ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: white;
+}
+
+:host ::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: white;
+}
+
+:host ::ng-deep .mat-checkbox-frame {
+  border-color: white;
+}
+
+@media (min-width: 768px) {
+  .login {
+    background: black;
+  }
 }

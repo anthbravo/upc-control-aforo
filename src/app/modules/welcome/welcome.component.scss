@@ -20,6 +20,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
 }
 
@@ -28,7 +29,7 @@
   width: 3rem;
   border-radius: 1.5rem;
   margin-right: 1rem;
-  border: solid 1.5px #000;
+  box-shadow: 1px 1px 5px 0px;
 }
 
 .welcome__avatar {
@@ -47,13 +48,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0.5rem;
+  padding: 0.75rem;
   background-color: #f7f8fa;
   font-size: 0.75rem;
 }
 
 .welcome__course-title {
-  color: #d70e0e;
+  color: #d50000;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -63,9 +64,12 @@
 }
 
 .welcome__menu-options {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  gap: 1.5rem;
+  padding: 2rem;
 }
 
 .welcome__option-container {
@@ -73,16 +77,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
-  height: 4rem;
-}
-
-.welcome__option-icon {
   height: 2rem;
 }
 
+.welcome__option-icon {
+  height: 70%;
+}
+
 .welcome__option-description {
-  height: 20%;
+  height: 30%;
+  margin-top: 0.3rem;
   font-size: 0.65rem;
   text-align: center;
   line-height: 0.65rem;
