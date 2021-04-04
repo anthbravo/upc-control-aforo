@@ -1,22 +1,13 @@
-$font-family: "Amelia-Basic";
+$font-family-zizou-slab: "zizou-slab";
 
 @font-face {
-  font-family: $font-family;
-  src: url("../assets/fonts/Amelia-Basic-Bold.woff2") format("woff2"),
-    url("../assets/fonts/Amelia-Basic-Bold.woff") format("woff");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: $font-family;
-  src: url("../assets/fonts/Amelia-Basic.woff2") format("woff2"),
-    url("../assets/fonts/Amelia-Basic.woff") format("woff");
+  font-family: $font-family-zizou-slab;
+  src: url("./assets/fonts/zizou-slab-regular.otf") ;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: $font-family;
-  src: url("../assets/fonts/Amelia-Basic-Light.woff2") format("woff2"),
-    url("../assets/fonts/Amelia-Basic-Light.woff") format("woff");
-  font-weight: lighter;
+  font-family: $font-family-zizou-slab;
+  src: url("./assets/fonts/zizou-slab-bold.otf");
+  font-weight: bold;
 }
