@@ -13,6 +13,13 @@ const routes: Routes = [
       import('./modules/welcome/welcome.module').then((m) => m.WelcomeModule),
   },
   {
+    path: 'capacity-control',
+    loadChildren: () =>
+      import('./modules/capacity-control/capacity-control.module').then(
+        (m) => m.CapacityControlModule
+      ),
+  },
+  {
     path: '**',
     redirectTo: '/',
     pathMatch: 'full',

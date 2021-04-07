@@ -75,7 +75,7 @@ export class WelcomeComponent implements OnInit {
       {
         description: 'Control de Aforo',
         iconName: 'capacity-control.png',
-        url: '/welcome',
+        url: '/capacity-control/campus-selection',
       },
       {
         description: 'Mensajes',

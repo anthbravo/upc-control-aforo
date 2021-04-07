@@ -15,7 +15,10 @@
     "lib": ["es2018", "dom"],
     "paths": {
       "@core/*": ["src/app/core/*"],
-      "@login/*": ["src/app/modules/login*"]
+      "@layout/*": ["src/app/layout/*"],
+      "@login/*": ["src/app/modules/login/*"],
+      "@welcome/*": ["src/app/modules/welcome/*"],
+      "@capacity-control/*": ["src/app/modules/capacity-control/*"]
     }
   },
   "angularCompilerOptions": {
