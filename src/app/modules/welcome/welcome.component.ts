@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuOption } from 'src/app/core/model/menu-option';
+import { MenuOption } from '@core/models/menu-option.model';
 
 @Component({
   selector: 'upc-welcome',

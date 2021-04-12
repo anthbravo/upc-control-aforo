@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RoutesComponent } from './routes.component';
+import { VisitedScreensComponent } from './visited-screens.component';
 
-describe('RoutesComponent', () => {
-  let component: RoutesComponent;
-  let fixture: ComponentFixture<RoutesComponent>;
+describe('VisitedScreensComponent', () => {
+  let component: VisitedScreensComponent;
+  let fixture: ComponentFixture<VisitedScreensComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RoutesComponent ]
+      declarations: [ VisitedScreensComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RoutesComponent);
+    fixture = TestBed.createComponent(VisitedScreensComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

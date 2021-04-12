@@ -5,14 +5,14 @@ import { AngularMaterialModule } from '../shared/angular-material/angular-materi
 import { HeaderComponent } from './header/header.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MenuComponent } from './menu/menu.component';
-import { RoutesComponent } from './routes/routes.component';
+import { VisitedScreensComponent } from './visited-screens/visited-screens.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     MenuComponent,
-    RoutesComponent,
     LayoutComponent,
+    VisitedScreensComponent,
   ],
   imports: [CommonModule, RouterModule, AngularMaterialModule],
 })

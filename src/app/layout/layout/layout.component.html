@@ -1,4 +1,14 @@
-<upc-header></upc-header>
-<upc-routes></upc-routes>
-<router-outlet></router-outlet>
-<upc-menu></upc-menu>
+<div class="layout">
+  <div class="header">
+    <upc-header></upc-header>
+  </div>
+  <div class="routes">
+    <upc-visited-screens></upc-visited-screens>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="menu">
+    <upc-menu></upc-menu>
+  </div>
+</div>

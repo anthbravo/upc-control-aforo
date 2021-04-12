@@ -1,0 +1,28 @@
+.visited-screens {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.visited-screens__back-button {
+  margin-left: 2rem;
+}
+
+.visited-screens__back-button:hover {
+  cursor: pointer;
+}
+
+.visited-screens__screens {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.visited-screens__screen {
+  margin-left: 1rem;
+  color: #797979;
+}
